@@ -152,6 +152,13 @@ a {
     .content p {
         font-family: cursive;
         font-size: 20px;
+        text-align: justify;
+    }
+    
+    .content .signature {
+        font-style: italic;
+        text-align: right;
+        margin-right: 30px;
     }
 }
 /*-----------------------------------------*/
@@ -259,6 +266,13 @@ a {
     .content p {
         font-family: cursive;
         font-size: 18px;
+        text-align: justify;
+    }
+    
+    .content .signature {
+        font-style: italic;
+        text-align: right;
+        margin-right: 10px;
     }
 }
 /*-------------------------------------------*/
