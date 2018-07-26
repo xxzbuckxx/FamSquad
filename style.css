@@ -109,19 +109,28 @@ a {
     
     .wrapper {
         box-shadow: 10px 10px 5px grey;
-        padding: 10px 20px 70px 20px;
+        padding: 10px 20px 0px 20px;
         margin: 0px 20% 50px 20%;
+    }
+    
+    .wrapper .date {
+        text-align: right;
+        font-family: sans-serif;
+        color: darkgray;
+        padding: 0px;
+        margin: 0px;
     }
     
     .wrapper .header {
         font-family: sans-serif;
         font-size: 3em;
-        margin-bottom: 0;
+        margin-bottom: 0px;
+        margin-top: 20px;
     }
     
     .wrapper .sub {
-        margin-top: 0em;
-        margin-bottom: 0em;
+        margin-top: 0px;
+        margin-bottom: 10px;
         font-size: 1em;
         color: grey;
     }
@@ -130,14 +139,19 @@ a {
         padding: 20px;
     }
     
+    .wrapper .content .image {
+        margin: 0px 10% 0px 10%;
+    }
+    
     .wrapper img {
         max-width: 100%;
         max-height: 100%;
+        border: 5px dashed black;
     }
     
     .content p {
         font-family: cursive;
-        font-size: 1.5em;
+        font-size: 20px;
     }
 }
 /*-----------------------------------------*/
@@ -197,6 +211,54 @@ a {
         display: inline-block;
         width: 8em;
         color: whitesmoke;
+    }
+    
+    .wrapper {
+        box-shadow: 10px 10px 5px grey;
+        padding: 10px 20px 0px 20px;
+        margin: 0px 10px 50px 10px;
+    }
+    
+    .wrapper .date {
+        text-align: right;
+        font-family: sans-serif;
+        color: darkgray;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .wrapper .header {
+        font-family: sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    
+    .wrapper .sub {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 1em;
+        color: grey;
+    }
+    
+    .content {
+        padding: 20px;
+    }
+    
+    .wrapper .content .image {
+        margin: 0px 10% 0px 10%;
+    }
+    
+    .wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+        border: 2px dashed black;
+        
+    }
+    
+    .content p {
+        font-family: cursive;
+        font-size: 18px;
     }
 }
 /*-------------------------------------------*/
