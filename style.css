@@ -36,8 +36,21 @@ a {
     margin: 7em -40% 5em 0;
 }
 
+.red {
+    border: 5px solid red;
+}
 
+.blue {
+    border: 5px solid blue;
+}
 
+.green {
+    border: 5px solid green;
+}
+
+.yellow {
+    border: 5px solid yellow;
+}
 
 /*----------------FULL SCREEN----------------*/
 @media only screen and (min-width: 801px) {
@@ -83,11 +96,6 @@ a {
         margin: auto;
     }
     
-    #menu_container {
-        width: 49em;
-        margin: auto;
-    }
-    
     .menu_item {
         text-align: center;
         font-size: 1.5em;
@@ -97,6 +105,39 @@ a {
         display: inline-block;
         width: 8em;
         color: whitesmoke;
+    }
+    
+    .wrapper {
+        box-shadow: 10px 10px 5px grey;
+        padding: 10px 20px 70px 20px;
+        margin: 0px 20% 50px 20%;
+    }
+    
+    .wrapper .header {
+        font-family: sans-serif;
+        font-size: 3em;
+        margin-bottom: 0;
+    }
+    
+    .wrapper .sub {
+        margin-top: 0em;
+        margin-bottom: 0em;
+        font-size: 1em;
+        color: grey;
+    }
+    
+    .content {
+        padding: 20px;
+    }
+    
+    .wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .content p {
+        font-family: cursive;
+        font-size: 1.5em;
     }
 }
 /*-----------------------------------------*/
