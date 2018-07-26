@@ -1,1 +1,161 @@
 /* Zack Traczyk */
+body {
+    margin: 0;
+}
+
+.menu {
+    background: black;
+    height:2em;
+    padding:.5em;
+    position:absolute;
+    display: block;
+    top:170px;
+    width:100%;
+    z-index: 10;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
+.menu_item:hover {
+    color: lightpink;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#body {
+    display: block;
+    position: absolute;
+    width: 80%;
+    right: 50%;
+    margin: 7em -40% 5em 0;
+}
+
+
+
+
+/*----------------FULL SCREEN----------------*/
+@media only screen and (min-width: 801px) {
+    #welcome{
+        width: 60em;
+        height: 12em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -6em 0 0 -30em;
+    }
+    
+    #welcome_title-1 {
+        font-size: 8em;
+        width: 7em;
+        height: 1.2em;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #welcome_title-2 {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        color: #686868;
+        width: 10em;
+        height: 1.2em;
+        text-align: right;
+        float: right;
+        margin-right: 8em;
+        margin-top: -1.6em;
+    }
+    
+    #title {
+        margin: .1em 0 0 .2em;;
+        width: 7em;
+        text-align: center;
+        font-size: 8em;
+        padding: 0;
+    }
+    
+    #menu_container {
+        width: 49em;
+        margin: auto;
+    }
+    
+    #menu_container {
+        width: 49em;
+        margin: auto;
+    }
+    
+    .menu_item {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Julius Sans One', sans-serif;
+        margin-top: .2em;
+        list-style: none;
+        display: inline-block;
+        width: 8em;
+        color: whitesmoke;
+    }
+}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+
+/*----------------HALF SCREEN--------------*/
+@media only screen and (max-width: 800px) {
+    #welcome {
+        width: 30em;
+        height: 15em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -7.5em 0 0 -15em;
+    }
+    
+    #welcome_title-1 {
+        font-size: 6em;
+        width: 5em;
+        height: 1.2em;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #welcome_title-2 {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        color: #686868;
+        width: 10em;
+        height: 1.2em;
+        text-align: right;
+        float: right;
+        margin-right: 5em;
+        margin-top: 6em;
+    }
+    
+    #title {
+        margin: .5em auto 0 auto;
+        width: 7em;
+        text-align: center;
+        font-size: 5em;
+        padding: 0;
+    }
+    
+    #menu_container {
+        width: 36em;
+        margin: auto;
+    }
+    
+    .menu_item {
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Julius Sans One', sans-serif;
+        margin-top: .2em;
+        list-style: none;
+        display: inline-block;
+        width: 8em;
+        color: whitesmoke;
+    }
+}
+/*-------------------------------------------*/
